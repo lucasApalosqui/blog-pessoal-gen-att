@@ -1,4 +1,4 @@
-package org.generation.blogPessoal.configuration;
+package org.generation.blogPessoalAtt.configuration;
 
 import org.springdoc.core.customizers.OpenApiCustomiser;
 import org.springframework.context.annotation.Bean;
@@ -21,10 +21,10 @@ public class SwaggerConfig {
 				.info(new Info().title("Projeto Blog Pessoal").description("Projeto Blog Pessoal - Gen")
 						.version("v0.0.1")
 						.license(new License().name("Generation Brasil").url("http://Brazil.generation.org/"))
-						.contact(new Contact().name("Lucas Apalosqui").url("https://github.com/lucasApalosqui")
+						.contact(new Contact().name("Lucas Octavio Apalosqui").url("https://github.com/lucasApalosqui")
 								.email("lucas.apalosqui@gmail.com")))
 				.externalDocs(new ExternalDocumentation().description("Github")
-						.url("https://github.com/lucasApalosqui/blog-pessoal-gen"));
+						.url("https://github.com/lucasApalosqui/blog-pessoal-gen-att"));
 	}
 
 	@Bean

@@ -1,9 +1,9 @@
-package org.generation.blogPessoal.repository;
+package org.generation.blogPessoalAtt.repository;
 
 import java.util.List;
 import java.util.Optional;
 
-import org.generation.blogPessoal.model.tema;
+import org.generation.blogPessoalAtt.model.tema;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

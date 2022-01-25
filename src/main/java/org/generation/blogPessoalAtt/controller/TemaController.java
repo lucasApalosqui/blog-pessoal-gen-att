@@ -1,12 +1,12 @@
-package org.generation.blogPessoal.controller;
+package org.generation.blogPessoalAtt.controller;
 
 import java.util.List;
 import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.generation.blogPessoal.model.tema;
-import org.generation.blogPessoal.repository.TemaRepository;
+import org.generation.blogPessoalAtt.model.tema;
+import org.generation.blogPessoalAtt.repository.TemaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

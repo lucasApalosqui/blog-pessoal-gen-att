@@ -1,16 +1,16 @@
-package org.generation.blogPessoal.controller;
+package org.generation.blogPessoalAtt.controller;
 
 import java.util.List;
 import java.util.Optional;
 
 import javax.validation.Valid;
 
-import org.generation.blogPessoal.model.usuario;
-import org.generation.blogPessoal.model.dtos.UserCredentialsDTO;
-import org.generation.blogPessoal.model.dtos.UserLoginDTO;
-import org.generation.blogPessoal.model.dtos.UsuarioRegisterDTO;
-import org.generation.blogPessoal.repository.UsuarioRepository;
-import org.generation.blogPessoal.services.UsuarioServices;
+import org.generation.blogPessoalAtt.model.usuario;
+import org.generation.blogPessoalAtt.model.dtos.UserCredentialsDTO;
+import org.generation.blogPessoalAtt.model.dtos.UserLoginDTO;
+import org.generation.blogPessoalAtt.model.dtos.UsuarioRegisterDTO;
+import org.generation.blogPessoalAtt.repository.UsuarioRepository;
+import org.generation.blogPessoalAtt.services.UsuarioServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

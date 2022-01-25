@@ -1,4 +1,4 @@
-package org.generation.blogPessoal.model.dtos;
+package org.generation.blogPessoalAtt.model.dtos;
 
 public class UserCredentialsDTO {
 

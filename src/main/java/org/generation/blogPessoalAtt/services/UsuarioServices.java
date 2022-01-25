@@ -1,4 +1,4 @@
-package org.generation.blogPessoal.services;
+package org.generation.blogPessoalAtt.services;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
@@ -6,11 +6,11 @@ import java.util.Optional;
 import javax.validation.Valid;
 
 import org.apache.commons.codec.binary.Base64;
-import org.generation.blogPessoal.model.usuario;
-import org.generation.blogPessoal.model.dtos.UserCredentialsDTO;
-import org.generation.blogPessoal.model.dtos.UserLoginDTO;
-import org.generation.blogPessoal.model.dtos.UsuarioRegisterDTO;
-import org.generation.blogPessoal.repository.UsuarioRepository;
+import org.generation.blogPessoalAtt.model.usuario;
+import org.generation.blogPessoalAtt.model.dtos.UserCredentialsDTO;
+import org.generation.blogPessoalAtt.model.dtos.UserLoginDTO;
+import org.generation.blogPessoalAtt.model.dtos.UsuarioRegisterDTO;
+import org.generation.blogPessoalAtt.repository.UsuarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
